@@ -28,5 +28,6 @@ public class AnagramTest {
     AnagramDictionary dictionary = new AnagramDictionary(new FileInputStream(wordsFile));
 
     System.out.println(dictionary.getAnagramsWithOneMoreLetter("post"));
+    // Add more test cases if needed, and modify the results expected in expected.txt
   }
 }
